@@ -3,65 +3,86 @@ const s: Saludador = new Saludador('Julián');
 s.saludar();
 
 // Error de variable inexistente
-const user1 = {
-    name1: "Daniel",
-    age1: 26,
+const usuario1 = {
+    name1: "Camilo",
+    age1: 19,
 
 };
 
-user1.location1;
-
-
-
+usuario1.location1;
 
 // Solución
-const user = {
-    name: "Daniel",
-    age: 26,
+const usuario2 = {
+    name: "Camilo",
+    age: 19,
     location: "Cali",
 };
 
-user.location;
+usuario2.location;
 
 
-const anuncio = "hello world";
+// ERROR DE ESCRITURA
+const anuncio = "Lina estuvó aquí";
 
 anuncios.toLocaleLowerCase();
-anuncio.toLocaleLowerCase();
+anuncio.toLocaleLowerCase(); //--->Solución
 
-function flipCoin(){
+//FUNCIONES NO LLAMADAS
 
-    return Math.random () < 0.5;
+function flexiones(){
+
+    return Math.random  < 10;
+
+}
+//Solución
+function flexiones1(){
+
+    return Math.random () < 10;
 
 }
 
-function rect(number: number, number2: number, number3: number, number4: number) {
 
-}
 
-const coin = rect(20,20,20,20);
-coin.flipCoin();
+// ERROR LOGICO BASICO
+const value = Math.random() < 10 ? "Pablo" : "Camilo";
+if (value !== "Pablo") {
 
-const value = Math.random() < 0.5 ? "a" : "b";
-if (value !== "a") {
-    // ...
-} else if (value === "b") {
+} else if (value === "Camilo") {
 }
 // Solución
-// El ejemplo anterior da un error porque tanto "a" como "b" son falsos.
+// El ejemplo anterior da un error porque tanto "Pablo" como "Camilo" son falsos.
 
-const value1 = Math.random() < 0.5 ? "a" : "b";
-if (value1 == "a") {
-    // ...
-} else if (value1 === "b") {
+const value1 = Math.random() < 10 ? "Pablo" : "Camilo";
+if (value1 == "Pablo") {
+
+} else if (value1 === "Camilo") {
 }
 
 // Duda
-const value2 = Math.random() < 0.5 ? "a" : "b";
-if (value2 !== "a") {
-    // ...
-} else if (value2 == "b") {
+const value2 = Math.random() < 10 ? "Pablo" : "Camilo";
+if (value2 !== "Pablo") {
+
+} else if (value2 == "Camilo") {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
