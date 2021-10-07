@@ -67,6 +67,20 @@ if (value2 !== "Pablo") {
 
 
 
+//TIPOS EXPLICITOS
+function greet(persona, fecha) {
+    console.log(`Happybirthday ${persona}, today is ${fecha}!`);
+}
+
+greet("Dana");
+
+
+//Solución
+function greet1(persona:string, fecha:string) {
+    console.log(`Happybirthday ${persona}, today is  ${fecha}!`);
+}
+
+greet1("Dana","Octubre 7");
 
 
 
