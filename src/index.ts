@@ -84,6 +84,32 @@ greet1("Dana","Octubre 7");
 
 
 
+//ERROR LOGICO BASICO
+function greet2(persona: string, fecha: Date) {
+    console.log(`Happybirthday ${persona}, today is ${fecha.toDateString()}!`);
+}
+
+greet2("Dana", Date());
+
+//Solución
+function greet3(persona: string, fecha: Date) {
+    console.log(`Happybirthday ${persona}, today is ${fecha.toDateString()}!`);
+}
+
+greet3("Dana", new Date());
+//ERROR LOGICO BASICO
+function greet2(persona: string, fecha: Date) {
+    console.log(`Happybirthday ${persona}, today is ${fecha.toDateString()}!`);
+}
+
+greet2("Dana", Date());
+
+//Solución
+function greet3(persona: string, fecha: Date) {
+    console.log(`Happybirthday ${persona}, today is ${fecha.toDateString()}!`);
+}
+
+greet3("Dana", new Date());
 
 
 
